@@ -1,0 +1,23 @@
+{
+  "name": "login",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/app.js",
+  "scripts": {
+    "lint": "standard --fix",
+    "test": "nodemon ./src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "1.4.6",
+    "dotenv": "16.1.3",
+    "ejs": "3.1.9",
+    "express": "4.18.2",
+    "express-mysql-session": "^3.0.0",
+    "express-session": "^1.17.3",
+    "mysql": "2.18.1",
+    "sha256": "0.2.0"
+  }
+}

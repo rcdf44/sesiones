@@ -1,0 +1,11 @@
+.contenedor{
+    width: 74%;
+    background-size: cover;
+    background-position: bottom;
+    margin:  30px auto;
+    height: 200px;
+    background-image: url("../assets/bella.jpg");
+    background-attachment: fixed;
+    border-radius: 10px;
+
+}
